@@ -15,6 +15,9 @@ export default configureWunderGraphServer<HooksConfig, InternalClient>(() => ({
 							spacex_dragons: [{
 								name: process.env.FOO,
 								active: true,
+							},{
+								name: process.env.BAR,
+								active: false,
 							}]
 						}
 					}
